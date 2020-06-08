@@ -1,7 +1,7 @@
 ![Latest Release](https://img.shields.io/github/release/VAKazakov/EDMC-Triumvirate.svg)
 
 # EDMC-Triumvirate
-The Triumvirate plug-in for EDMC, developed by Close Encounters Corps (KAZAK0V, AntonyVern), is a powerful data-processing tool that allows you to track the influence of the fraction in the controlled systems, pinpoint tasks for each system, collect scientific data, coordinate the work of pilots, notify colleagues about emergency situations in long-haul flights and collect statistics on Thargoids and anomalies. In the future, the plugin will receive a number of improvements designed to make it even easier for pilots to work in the vast expanses of the Galaxy.
+The Triumvirate plugin for EDMC, developed by Close Encounters Corps (KAZAK0V, AntonyVern), is a powerful data-processing tool that allows you to track the influence of the fraction in the controlled systems, pinpoint tasks for each system, collect scientific data, coordinate the work of pilots, notify colleagues about emergency situations in long-haul flights and collect statistics on Thargoids and anomalies. In the future, the plugin will receive a number of improvements designed to make it even easier for pilots to work in the vast expanses of the Galaxy.
 
 ***Confidential user information, user system features and non-public personal data are not collected, stored or processed as a matter of principle.***
 
