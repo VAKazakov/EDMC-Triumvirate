@@ -1,74 +1,72 @@
 ![Latest Release](https://img.shields.io/github/release/VAKazakov/EDMC-Triumvirate.svg)
 
 # EDMC-Triumvirate
-Плагин Triumvirate для EDMC, разработанный фракцией Close Encounters Corps (KAZAK0V, AntonyVern), является мощнейшим инструментом по обработке данных, позволяет отслеживать влияние в подконтрольных фракционных системах, точечно прописывать задачи по БГС к каждой системе, собирать научные данные, координировать работу пилотов, оповещать коллег о нештатных ситуациях в дальних перелетах и собирать статистические данные по Таргоидам и аномалиям. В дальнейшем этот плагин получит ряд улучшений, призванных еще сильнее упростить работу пилотов на просторах Галактики.
+The Triumvirate plug-in for EDMC, developed by Close Encounters Corps (KAZAK0V, AntonyVern), is a powerful data-processing tool that allows you to track the influence of the fraction in the controlled systems, pinpoint tasks for each system, collect scientific data, coordinate the work of pilots, notify colleagues about emergency situations in long-haul flights and collect statistics on Thargoids and anomalies. In the future, the plugin will receive a number of improvements designed to make it even easier for pilots to work in the vast expanses of the Galaxy.
 
-***Конфиденциальная информация пользователя, характеристики системы и необщедоступные персональные данные принципиально не собираются, не хранятся и не обрабатываются.***
+***Confidential user information, user system features and non-public personal data are not collected, stored or processed as a matter of principle.***
 
-# Обратите особое внимание:
+# Please pay attention:
 
-Плагин для EDMC Triumvirate категорически НЕСОВМЕСТИМ с плагином EDMC-Canonn, EDMC-USS-Survey и с устаревшим EDMC-USS-Survey-Triumvirate-edition. Плагин EDMC-Canonn был изначально интегрирован в Triumvirate.
+The Triumvirate plugin is categorically NOT compatible with EDMC-Canonn, EDMC-USS-Survey and the outdated EDMC-USS-Survey-Triumvirate-edition plugins. EDMC-Canonn was originally integrated into Triumvirate.
 
-# Функции плагина (будет обновляться по мере внесения улучшений)
+# Plug-in functions (will be updated as improvements are made)
 
-## Элемент по принятию команд от пользователя
+## Element for accepting commands from the user
 
-### Команда /sos
+### Command /sos
 
-После того, как пилот напишет в чате игры команду "/sos" (в любом регистре), плагином будет сформирован и передан в чат дискорда фракции* (в специально выделенный канал) пакет данных с местоположением, количеством топлива, местом и временем до опустошения бака. Благодаря этим данным, пилоту, попавшему в опасную ситуацию, можно будет своевременно довезти топливо и произвести дозаправку.
+After the pilot writes a command "/sos" (in any register) in the game chat, the plugin will form and send to the Discord-chat * (in a specially dedicated channel) a data packet with the location, fuel amount, place and time before the tank was emptied. Thanks to this data, a pilot in a dangerous situation will be able to deliver fuel and refuel on time.
 
-\*Если вы независимый пилот (по данным плагина) то ваш запрос о помощи будет передан в Close Encounters Corps
+\* If you are an independent pilot (according to the plugin), your request for help will be forwarded to Close Encounters Corps faction.
 
-## Элемент системы ориентирования (AKA Патруль)
+## Orientation System Element (aka Patrol)
 
-Система ориентирования используется для навигации при полетах до точек интереса и включает в себя:
+The orienteering system is used for navigation when flying to points of interest and includes: 
+ * System for tracking the influence levels of fractions in the systems under control of specific faction. This tool provides a brief information summary on the status in systems with the presence of our fractions. There is a function for factional leaders to manually assign tasks to specific systems to be issued directly into the plug-in.
+ * Dislocation of your ships. A tool that provides real-time information on the location of your ships. The addition of a compass/GPS-like feature is being developed to provide a clear flight path to points of interest.
+* The addition of a function to provide information about the location of your carrier, the list of its characteristics and the filling of fuel tanks is being developed.
+* We are working on adding an " friendly-foe" feature to the identification system to determine who is in front of you - co-operate, ally or opponent/neutral.
  
- * Система по отслеживанию уровней влияния фракций в подконтрольных системах. Этот инструмент дает краткую информационную сводку по состоянию систем с присутствием наших фракций. Для руководителей фракций присутствует функция ручного назначения задач по конкретным системам для выдачи напрямую в плагин.
- * Дислокация ваших судов. Инструмент, выдающий в реальном времени информацию о местонахождение ваших судов. Прорабатывается добавление функции подобной компасу/GPS для наглядного полета к точкам интереса.
-* Прорабатывается добавление функции выдачи информации о дислокации вашего корабля-носителя, перечне его характеристик и заполнении топливных баков.
-* Прорабатывается добавление функции системы опознания “свой-чужой” для определения того, кто находится перед вами – сопартиец, союзник или противник/нейтрал.
+## News node element
+
+Allows you to see the latest news and current information on the Galaxy.
+
+## Report element on Targovid intercepts
+
+Allows you to collect and analyse information about the time and place where the Thargoids intercepted your ships. Provides an accurate estimate of the scale of the alien invasion.
+
+## NHSS Reporting Element
+
+Collects and analyzes information about detected alien (read  "Thargoid") signals.
+
+## Element of FSS report analysis
+
+Collects and analyzes complete information about the current system.
+
+## Codex Element
+
+Collects information from log entries and synchronizes it with external services such as[Canonn database] (https://api.canonn.tech/documentation).
+
+## Thargoid elimination analysis element
+
+Collects and processes information about the time, location, type and number of Thargoid ships shot down. Serve to summarize the week and build a clear plan to counter the alien invasion.
+
+## Element to analyse information from the pilot's log
+Collects and processes information from the pilot's log. Provides updates on markets, products and prices. Helps all pilots get the latest data. Transmits the obtained information to the profile websites INARA, EDSM, EDDB and so on.
+
+## Installation Instruction:
+
+1) Download and install the latest version[EDMarketConnector] (https://github.com/Marginal/EDMarketConnector/blob/rel-342/README.md#installation) (if already installed, make sure to check EDMC for updates).
+
+2) Download the latest release of the plugin[EDMC-Triumvirate] (https://github.com/VAKazakov/EDMC-Triumvirate/releases/latest) by clicking the Source code(zip) button.
+
+3) Extract the plugin folder to %USERPROFILE%\AppData\Local\EDMarketConnector\plugins (you can insert this in the address bar).
+
+4) Run the EDMC, if the [this] [https://cdn.discordapp.com/attachments/518418556615000074/590004329692397579/unknown.png] view appears, then proceed to step 5, otherwise you will need to check if the installation is correct.  
  
-## Элемент новостного узла
+5) Enable auto update in the Triumvirate plugin settings (Triumvirate tab will appear in EDMC settings).
 
-Позволяет ознакомиться с последними новостями и актуальной информацией по Галактике.
-
-## Элемент по отчетам о перехватах Таргоидами
-
-Позволяет собирать и анализировать информацию о времени и месте перехватов ваших судов Таргоидами. Служит для точной оценки масштабов инопланетного вторжения.
-
-## Элемент по отчетам о NHSS
-
-Собирает и анализирует информацию об обнаруженных инопланетных (чит. Таргоидских) сигналах.
-
-## Элемент Кодекса
-
-Собирает информацию записей журнала и синхронизирует ее с внешними службами, такимим как [база данных Canonn](https://api.canonn.tech/documentation).
-
-## Элемент по анализу ликвидации Таргоидов
-
-Собирает и обрабатывает информацию о времени, месте, типе и количестве сбитых Таргоидских кораблей. Служит для подведения итогов недели и выстраивания четкого плана по противодействию инопланетному вторжению.
-
-## Элемент по анализу информации из журнала пилота
-
-Собирает и обрабатывает информацию из бортового журнала. Обеспечивает обновление информации о рынках, товарах, ценах. Помогает всем пилотам получать актуальные данные. Передаёт полученную информацию на профильные сайты INARA, EDSM, EDDB и тому подобные. 
-
-## Элемент по анализу отчетов FSS
-
-Собирает и анализирует полную информацию о текущей системе.
-
-## Инструкция по установке:
-
-1) Скачать и установить последнюю версию[EDMarketConnector] (https://github.com/Marginal/EDMarketConnector/blob/rel-342/README.md#installation) (если он уже установлен, обязательно проверьте EDMC на наличие обновлений)
-
-2) Скачать самый свежий релиз плагина[EDMC-Triumvirate] (https://github.com/VAKazakov/EDMC-Triumvirate/releases/latest), нажав на кнопку Source code(zip)
-
-3) Распаковать папку с плагином в %USERPROFILE%\AppData\Local\EDMarketConnector\plugins (это можно вставить в адресную строку проводника)
-
-4) Запустить EDMC, если появилось окно [такого](https://cdn.discordapp.com/attachments/518418556615000074/590004329692397579/unknown.png) вида, то перейти к шагу 5, иначе вам будет необходимо проверить правильность установки  
- 
-5) Включить в настройках плагина Triumvirate (вкладка Triumvirate появится в настройках EDMC) автообновление
-
-6) ***Вы великолепны!***
+6) *** You are amazing!***
  
 ## Disclaimer
 EDMC-Triumvirate was created using assets and imagery from Elite Dangerous, with the permission of Frontier Developments plc, for non-commercial purposes. It is not endorsed by nor reflects the views or opinions of Frontier Developments and no employee of Frontier Developments was involved in the making of it.
@@ -77,4 +75,6 @@ EDMC-Triumvirate use data from [Canonn API V2](https://docs.canonn.tech), [ED St
 
 EDMC-Triumvirate based on [EDMC-Canonn](https://github.com/canonn-science/EDMC-Canonn), with permission of initial developers.
 
-Logo - Антон Верницкий aka AntonyVern/Automatic system. 
+All Contents Copyright :copyright: 2016-2020 Close Encounters Corps, Triumvirate. All Rights Reserved.
+
+Logo –  Anton Vernitskiy aka AntonyVern/Automatic system. 
