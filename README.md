@@ -31,7 +31,7 @@ The orienteering system is used for navigation when flying to points of interest
 
 Allows you to see the latest news and current information on the Galaxy.
 
-## Report element on Targovid intercepts
+## Report element on Thargoid intercepts
 
 Allows you to collect and analyse information about the time and place where the Thargoids intercepted your ships. Provides an accurate estimate of the scale of the alien invasion.
 
@@ -64,9 +64,7 @@ Collects and processes information from the pilot's log. Provides updates on mar
 
 4) Run the EDMC, if the [this] [https://cdn.discordapp.com/attachments/518418556615000074/590004329692397579/unknown.png] view appears, then proceed to step 5, otherwise you will need to check if the installation is correct.  
  
-5) Enable auto update in the Triumvirate plugin settings (Triumvirate tab will appear in EDMC settings).
-
-6) *** You are amazing!***
+5) *** You are amazing!***
  
 ## Disclaimer
 EDMC-Triumvirate was created using assets and imagery from Elite Dangerous, with the permission of Frontier Developments plc, for non-commercial purposes. It is not endorsed by nor reflects the views or opinions of Frontier Developments and no employee of Frontier Developments was involved in the making of it.
