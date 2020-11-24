@@ -66,6 +66,14 @@ Collects and processes information from the pilot's log. Provides updates on mar
  
 5) *** You are amazing!***
  
+## Development
+At the moment, our plugin, like EDMC in general, runs on Python 3.7., but it is possible to further migrate to newer versions of Python.
+How to prepare the environment for development:
+```bash
+pip2 install -r requirements-dev.txt
+pre-commit install
+```
+
 ## Disclaimer
 EDMC-Triumvirate was created using assets and imagery from Elite Dangerous, with the permission of Frontier Developments plc, for non-commercial purposes. It is not endorsed by nor reflects the views or opinions of Frontier Developments and no employee of Frontier Developments was involved in the making of it.
 
@@ -73,6 +81,7 @@ EDMC-Triumvirate use data from [Canonn API V2](https://docs.canonn.tech), [ED St
 
 EDMC-Triumvirate based on [EDMC-Canonn](https://github.com/canonn-science/EDMC-Canonn), with permission of initial developers.
 
-All Contents Copyright :copyright: 2016-2020 Close Encounters Corps, Triumvirate. All Rights Reserved.
+All Contents Copyright ©️ 2016-2020 Close Encounters Corps, Triumvirate. KAZAK0V, AntonyVern, Osmium. All Rights Reserved.
 
-Logo –  Anton Vernitskiy aka AntonyVern/Automatic system. 
+Logo - Антон Верницкий aka AntonyVern/Automatic system.
+
