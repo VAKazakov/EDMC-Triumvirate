@@ -7,7 +7,7 @@ The Triumvirate plugin for EDMC, developed by Close Encounters Corps (KAZAK0V, A
 
 # Please pay attention:
 
-The Triumvirate plugin is categorically NOT compatible with EDMC-Canonn, EDMC-USS-Survey and the outdated EDMC-USS-Survey-Triumvirate-edition plugins. EDMC-Canonn was originally integrated into Triumvirate.
+The Triumvirate plugin is categorically NOT compatible with EDMC-Canonn, EDMC-USS-Survey and the outdated EDMC-USS-Survey-Triumvirate-edition plugins. EDMC-Canonn plugin was originally integrated into Triumvirate, we also integrated support for Discord Presence, FCMC and transfer of collected scientific data not only to Canonn servers, but also to ATEL-IGAU addresses, operates a system of issuing and accounting of completed missions in the context of activities against the Club.
 
 # Plug-in functions (will be updated as improvements are made)
 
